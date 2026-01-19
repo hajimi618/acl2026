@@ -14,6 +14,3 @@ In the `Code_and_Data` folder, we provide:
 
 We also provide **ACL_Addition.pdf**, which serves as a supplementary document to further support the main manuscript.
 
----
-
-If you have any questions or need help running the code, feel free to open an issue.
