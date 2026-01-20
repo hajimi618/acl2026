@@ -1,8 +1,6 @@
 # Repository Overview
 
-This repository is shared as an **anonymous link** for review and reproducibility.
-
-It contains the code and partial data used in our experiments.
+This repository is shared as an **anonymous link** for review and reproducibility. It contains the code and partial data used in our experiments. The complete reasoning dataset will be made publicly available upon the acceptance of the paper.
 
 ## 📁 Code_and_Data
 
