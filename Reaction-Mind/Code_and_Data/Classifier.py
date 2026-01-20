@@ -372,6 +372,7 @@ def main():
 
     smiles_list = ["CC(C=CC(=O)O)Oc1ccc(Oc2ccc(C(F)(F)F)cc2)cc1.CC(C)(C)C(=O)Cl.O=C([O-])CC(=O)[O-].CCC(C)(CC)O[Mg+2].CCOC(=O)CC(=O)OCC",
                    "[Na].CC(C)=O.Cl.CCCCCCC(=N)N.Fc1ccc(N=C=S)cc1.c1ccccc1.CCCCC"]
+    
 
     fun_encoded_batch = compute_reaction_side_fingerprint(smiles_list, fp_size=2048, radius=2)
 
@@ -381,3 +382,5 @@ def main():
         print(f"Sample {i+1}:")
         for rank, (cls, conf) in enumerate(topk, 1):
             print(f"  Top-{rank} Class = {cls}, Confidence = {conf:.4f}")
+
+

@@ -8,7 +8,8 @@ swift sft \
     --model_type deepseek_r1_distill \
     --template deepseek_r1 \
     --train_type full \
-    --dataset '/Data/CoT_data' \
+    --dataset '/Data/Forward_CoT' \
+              '/Data/Retro_CoT' \
     --torch_dtype bfloat16 \
     --num_train_epochs 1 \
     --per_device_train_batch_size 8 \
